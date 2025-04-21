@@ -1,8 +1,8 @@
 //************************************************************************
 //Author.....: Devan Marion
 //Assignment: Banking System
-//Despcription: This program provides a simple banking system where users
-//              can deposit, withdraw, check their balance, and exit. 
+//Despcription: This program provides a simple database for
+//              obscure superheroes
 //************************************************************************ 
 #include <iostream>
 #include <string>
