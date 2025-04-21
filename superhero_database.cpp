@@ -1,6 +1,6 @@
 //************************************************************************
 //Author.....: Devan Marion
-//Assignment: Banking System
+//Assignment: Obscure Superhero Database
 //Despcription: This program provides a simple database for
 //              obscure superheroes
 //************************************************************************ 
