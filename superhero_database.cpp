@@ -11,28 +11,43 @@
 
 using namespace std;
 
-const int SIZE = 10;
+const int SIZE = 26;
 
-// Parallel Arrays
+// Parallel arrays for superhero data
 string names[SIZE] = {
     "Squirrel Girl", "Arm-Fall-Off-Boy", "The Tick", "Moon Knight", "Matter-Eater Lad",
-    "Ragman", "Doorman", "Zeitgeist", "Ambush Bug", "Hellcow"
+    "Ragman", "Doorman", "Zeitgeist", "Ambush Bug", "Hellcow",
+    "Brit", "Tech Jacket", "Bulletproof", "Komodo Dragon", "Wolf-Man",
+    "Azrael", "Booster Gold", "Kyle Rayner",
+    "Lucifer Morningstar", "The Beyonder", "Franklin Richards", "Legion",
+    "Demolition Man", "Captain Battle", "Phantom Lady", "Batwing"
 };
 
 string powers[SIZE] = {
     "Control Squirrels", "Detachable Limbs", "Super Strength", "Multiple Personalities", "Eat Anything",
-    "Absorbs Evil Souls", "Teleportation via Doors", "Acid Vomit", "Teleportation", "Vampiric Cow Abilities"
+    "Absorbs Evil Souls", "Teleportation via Doors", "Acid Vomit", "Teleportation", "Vampiric Cow Abilities",
+    "Near Invulnerability", "Alien Power Suit", "Super Strength", "Reptilian Form", "Werewolf Strength",
+    "Enhanced Strength and Holy Weaponry", "Future Tech and Flight", "Green Lantern Constructs",
+    "Nigh-Omnipotence and Immortality", "Reality Manipulation", "Reality Warping", "Multiple Powers",
+    "Super Strength and Wrestling", "Super Soldier Enhancements", "Black Light Projection", "High-Tech Suit and Flight"
 };
 
 string weaknesses[SIZE] = {
     "Time Limits", "Heavy Objects", "Poor Judgment", "Mental Stability", "Stomach Capacity",
-    "Moral Compass", "Must Use Doors", "Digestive Issues", "Too Random", "Sunlight"
+    "Moral Compass", "Must Use Doors", "Digestive Issues", "Too Random", "Sunlight",
+    "Aging", "Reliant on Technology", "Inferiority Complex", "Heat Sensitivity", "Lunar Cycle",
+    "Mental Instability", "Vanity", "Ring Recharge Limitations",
+    "Free Will", "Inexperience with Humanity", "Emotional Instability", "Mental Illness",
+    "Unstable Mind", "Aging", "Human Durability", "Suit Dependency"
 };
 
-// Multidimensional Array (2D array for year and universe)
 string metadata[SIZE][2] = {
     {"1992", "Marvel"}, {"1989", "DC"}, {"1986", "Other"}, {"1975", "Marvel"}, {"1962", "DC"},
-    {"1976", "DC"}, {"1989", "Marvel"}, {"2001", "Marvel"}, {"1982", "DC"}, {"1975", "Marvel"}
+    {"1976", "DC"}, {"1989", "Marvel"}, {"2001", "Marvel"}, {"1982", "DC"}, {"1975", "Marvel"},
+    {"2003", "Other"}, {"2002", "Other"}, {"2004", "Other"}, {"2004", "Other"}, {"2007", "Other"},
+    {"1992", "DC"}, {"1986", "DC"}, {"1994", "DC"},
+    {"1989", "DC"}, {"1984", "Marvel"}, {"1968", "Marvel"}, {"1985", "Marvel"},
+    {"1985", "Marvel"}, {"1941", "Other"}, {"1941", "DC"}, {"2011", "DC"}
 };
 
 // Helper Functions
